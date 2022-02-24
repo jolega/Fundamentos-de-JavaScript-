@@ -1,7 +1,7 @@
 
 class Persona {
 
-    static porObjeto ({nombre, apellido, pais}) {  //{nombre, apellido, pais} destructuracion de objetos 
+    static porObjeto ({nombre, apellido, pais}) {  //{nombre, apellido, pais} destructuracion de objetos  e instancias de varias formas soluciona multiples contrusctores
 
         return new Persona(nombre, apellido, pais )
 
